@@ -1,0 +1,99 @@
+body {
+  background: rgb(132,255,110);
+background: radial-gradient(circle, rgba(132,255,110,1) 0%, rgba(107,255,231,1) 45%, rgba(92,199,255,1) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background-color: rgb(236, 255, 249);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: rgba(40, 180, 27, 0.4) 5px 5px, rgba(46, 240, 75, 0.3) 10px 10px,
+    rgba(46, 146, 240, 0.2) 15px 15px, rgba(46, 182, 240, 0.1) 20px 20px,
+    rgba(46, 91, 240, 0.05) 25px 25px;
+    
+}
+.parron {
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(124, 106, 106, 0.3) 0px 7px 13px -3px, rgba(148, 157, 150, 0.2) 0px -3px 0px inset;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 0.5px transparent;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  background: rgb(169,255,190);
+  background: rgb(169,255,190);
+  background: linear-gradient(90deg, rgba(169,255,190,1) 0%, rgba(149,255,254,0.6078080890559349) 100%);
+}
+#green {
+  color: rgb(3, 214, 3);
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+.div-button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.addyourtask {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid transparent;
+  transition: all 0.3s ease;
+  background-color: rgba(221, 220, 219, 0.521);
+}
+.text {
+  text-decoration: line-through;
+}
+.todolist {
+  font-size: xx-large;
+  color: rgb(95, 236, 187);
+  color: linear-gradient(90deg, rgb(0, 255, 255) 0%, rgba(35, 155, 153, 0.608) 100%);
+box-shadow: 2px 2px 2px 2px;
+width: 200px;
+  text-align: center;
+  border-radius: 7px;
+padding: 5px 0px;
+}
+.button {
+  border-radius: 20px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border: solid 0.5px transparent;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color: rgb(3, 214, 3);
+  position: absolute;
+  right: 27px;
+}
+.mines {
+  padding: 10px 0px;
+  width: 30px;
+  height: 30px;
+}
+.addyourtask:hover {
+  background-color: rgb(190, 250, 231);
+  border-radius: 8px;
+  border: solid 2px rgb(47, 225, 47);
+}
+.button:hover {
+  background-color: rgb(94, 226, 145);
+  transition: all ease 0.3s;
+  color: rgb(237, 230, 230);
+  border-radius: 10px;
+
+}
+.text1{
+
+  display: flex;
+  justify-content: center;
+}
